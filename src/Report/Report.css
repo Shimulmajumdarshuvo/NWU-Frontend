@@ -1,0 +1,32 @@
+.Report {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+
+}
+
+.subReport {
+    border: 1px solid gray;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.subReport h2 {
+    font-size: 18px;
+    font: bold;
+}
+
+.subReport h4 {
+    font-size: 16px;
+    font: bold;
+}
+
+.subReport h4 span {
+    width: 10px;
+    background-color: aliceblue;
+}
+
+.ReportContent {
+    padding: 2px 0;
+    padding-left: 20px;
+}
